@@ -97,6 +97,14 @@ int playCard(int handPos, int choice1, int choice2, int choice3,
 	     struct gameState *state);
 /* Play card with index handPos from current player's hand */
 
+void theVillage(int currentPlayer, struct gameState *state, int handPos);
+/* Refactored function for Village card */
+
+void theSmithy(int currentPlayer, struct gameState *state, int handPos);
+/* Refactored smithy card with BUG */
+
+void theAdventurer(int currentPlayer, struct gameState *state);
+
 int buyCard(int supplyPos, struct gameState *state);
 /* Buy card with supply index supplyPos */
 
