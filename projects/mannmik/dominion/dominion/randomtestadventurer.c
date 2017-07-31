@@ -2,6 +2,8 @@
 **Author: Mike Mann
 **Class: CS 362
 **Description: Assignment 4 random test of Adventurer card
+**Adventurer card was given a bug so it will not pass our tests.
+**the bug only allows adventurer to draw one treasure card when it should draw 2.
 ******************************************************/
 
 #include "dominion.h"

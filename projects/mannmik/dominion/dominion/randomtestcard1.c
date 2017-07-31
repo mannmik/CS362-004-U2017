@@ -1,3 +1,10 @@
+/**************************************************
+**Author: Mike Mann
+**Class: CS 362
+**Description: Assignment 4 random test of village card
+**village card was given no bugs and was tested in assignment 3
+******************************************************/
+
 #include "dominion.h"
 #include "dominion_helpers.h"
 #include "rngs.h"
