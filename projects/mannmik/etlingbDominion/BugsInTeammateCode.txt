@@ -1,0 +1,15 @@
+Bug-Reports
+
+1)	Village Card Function Bug
+
+Bug in teammate’s assignment 2 dominion.c version
+
+Village card function does not draw a user card
+
+I found this bug through my card test function for the village card and through my random test for the village card function. The bug became much clearer after running the random test. It showed that at no time was the function correctly drawing a card. The village function should draw a card and then discard the played village card resulting in the player’s hand count remaining the same after the village card is played; however each time the post hand count was smaller by one. Upon further inspection of the code it was clear that the village function was not drawing a card as expected resulting in the failed tests.
+
+2)	Smithy Card Function Bug
+Bug in teammate’s assignment 2 dominion.c version
+Smithy card function does not properly draw 3 new cards as expected
+This bug was also discovered through my card test and random test created for the smithy card. The bug was again initially found after running my card test, but the bug became clearer after running the random test just as the village bug became clearer. The random test showed that once again the expected hand count after the smithy card was played was not as expected. The smithy card should draw 3 new cards and discard the smithy card itself resulting in pre and post hand count differential of 2; however this expected result never occurred and all random tests failed. Upon further inspection into the bug I could see that the smithy card function tested was actually only drawing 1 new card instead of 3.
+
